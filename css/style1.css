@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #192133;
+    color: whitesmoke;
+    font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+.container article{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.container article span i{
+    padding-right:15px;
+    color: #ffffff99;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.container article .logo img{
+    display: flex;
+    width: 100%;
+}
+.logo img {
+    width: 115px;
+    height: 45px;
+    padding-bottom: 10px;
+}
+.mainContain{
+    /* border: 2px solid yellow; */
+    display: flex;
+    width: 38%;
+}
+.mainContain ul{
+    text-decoration: none;
+    display: flex;
+
+
+}
+.mainContain ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+
+}
+.mainContain ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 15px 20px;
+    line-height: normal;
+    color: var(--TEXT_COLOR_L0);
+    font-weight: 500;
+    opacity: 1;
+}
+
+.kids{
+    display: flex;
+    width: 20%;
+    padding-right: 100px;
+    margin-left: 20px;
+}
+.kids img {
+    width: 40px;
+    height: 15px;
+    background: no-repeat;
+}
+/*.mainContain nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 20px 15px;
+
+}*/
+.mainContain nav ul ul{
+    background:  #192133;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+.mainContain nav ul ul li a{
+    display: block;
+    padding: 10px;
+}
+.mainContain nav ul li a:hover{
+    background-color: black;
+}
+.mainContain nav ul li:hover>ul{
+    display: block;
+    transition: 2sec;
+}
+
+.searchBox{
+    width: 25%;
+    display: flex;
+}
+
+.searchBox form input{ 
+    width: 90%;
+    background-color:#192133;
+    border-radius: 3px;
+    border-bottom: 0.5px solid white;
+    padding: 6px 40px;
+    text-align: left;
+    font-weight: bold;
+    font-family:  "Roboto","HelveticaNeue-Light",sans-serif;
+     color: white; 
+    font-size: 15px;
+    /* display: flex; */
+}
+.searchicon{
+    /* padding: 10px; */
+    display: flex;
+    position: absolute;
+    top: 24px;
+}
+.sublog{
+    display: flex;
+    width: 7%;
+}
+.sublog button{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 18px 15px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(31 128 224);
+    border: none;
+    outline: 0;
+    outline-color: transparent;
+    position: relative;
+    outline: none !important;
+    font-size: 12px;
+    margin: 15px 0 15px -70px;
+    padding: 0 12px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.sublog ul{
+    text-decoration: none;
+    display: flex;
+
+
+}
+.sublog ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+
+}
+.sublog ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 15px 20px;
+    line-height: normal;
+    color: var(--TEXT_COLOR_L0);
+    font-weight: 500;
+    opacity: 1;
+}
+
+
+
+hr{
+    width: 94%;
+    margin-left: 48px;
+    color:#ffffff99;
+    border: 0.5px solid #ffffff99;
+}
+
+.minislider{
+    display: flex;
+    /*border: 1px solid white; */
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+.minislider article{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin: 0 auto;
+   /* border: 1px solid white; */
+
+   
+}
+.minislider article .sl1 , .sl2 ,.sl3,.sl4,.sl5 , .sl6{
+    height: auto;
+    width: 280px;
+    border-radius: 5px;
+  /* border: 1px solid white;*/
+    margin: 10px;
+    display: flex;
+    margin-top: 10px;
+
+}
+.minislider img{
+    width: 220px;
+    display: flex;
+    padding: 5px;
+   
+}
+.h1 h2{
+    margin-left: 20px;
+}
+.minislider1{
+    display: flex;
+    /*border: 1px solid white; */
+    width: 80%;
+    height: 250px;
+    margin-top: 10px;
+}
+.minislider1 article{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin: 0 auto;
+   /* border: 1px solid white; */
+
+   
+}
+.minislider1 article .sl1 , .sl2 ,.sl3,.sl4,.sl5 , .sl6{
+    height: auto;
+    width: 230px;
+    border-radius: 10px;
+  /* border: 1px solid white;*/
+    margin: 10px;
+    display: flex;
+    margin-top: 10px;
+
+}
+.minislider1 img{
+    width: 180px;
+    display: flex;
+    padding: 5px;
+   
+}
+.h2 h2{
+    margin-left: 20px;
+}
+#lastBlock article {
+    width: 100%;
+    display: flex;
+}
+#lastBlock ul li{
+    text-decoration: none;
+    list-style: none;
+    /*display: flex;*/
+    float: left;
+}
+#lastBlock ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+   /* padding: 20px 15px 20px;
+    line-height: normal;
+    color: var(--TEXT_COLOR_L0);
+    font-weight: 500;
+    opacity: 1;*/
+}
+#lastBlock ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#lastBlock p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.connect p1{
+  line-height: 40px;
+  font-size: 14px;
+  margin-left: 160px;
+}
+.connect ul{
+    margin-left: 160px;
+
+}
+.connect ul li i{
+    font-size: 30px;
+    padding: 10px;
+}
+.app p2{
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 280px;
+}
+
+.img1 img{
+    width: 100px;
+    height: 40px;
+    margin-left: 280px;
+}
+.img2 img{
+    width: 100px;
+    height: 40px;
+    margin-left: 280px;
+    /*margin: auto 50px;*/
+}
